@@ -1,0 +1,26 @@
+{
+  "name": "coding-templates",
+  "version": "1.0.0",
+  "description": "Template scripts for bash, Python, and TypeScript development",
+  "author": "Ibrahim (https://github.com/1B05H1N)",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/templates/template.js",
+    "dev": "ts-node templates/template.ts",
+    "lint": "eslint templates/ --ext .ts",
+    "format": "prettier --write \"templates/**/*.ts\""
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "@typescript-eslint/eslint-plugin": "^7.1.1",
+    "@typescript-eslint/parser": "^7.1.1",
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+} 
